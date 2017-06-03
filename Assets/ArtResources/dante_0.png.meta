@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 7a035de028c66be40b6f7c200e0393a7
-timeCreated: 1496469261
+guid: 37a8541e511d588469c919d1d898a74a
+timeCreated: 1496471168
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -36,12 +36,12 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 32
-  spriteMeshType: 0
+  spriteExtrude: 1
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 7
+  spritePixelsToUnits: 14
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -74,10 +74,10 @@ TextureImporter:
       name: Player
       rect:
         serializedVersion: 2
-        x: 12
-        y: 157
-        width: 12
-        height: 17
+        x: 10
+        y: 150
+        width: 29
+        height: 31
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
