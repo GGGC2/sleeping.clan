@@ -1,10 +1,11 @@
 fileFormatVersion: 2
 guid: 37a8541e511d588469c919d1d898a74a
-timeCreated: 1496471168
+timeCreated: 1497067902
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: Player
+    21300002: Enemy
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -78,6 +79,19 @@ TextureImporter:
         y: 150
         width: 29
         height: 31
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: Enemy
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 54
+        width: 29
+        height: 30
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
