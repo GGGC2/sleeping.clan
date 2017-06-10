@@ -1,13 +1,10 @@
 fileFormatVersion: 2
-guid: 0380a12882d3a034c8e3b565db6401ca
-timeCreated: 1496476090
+guid: 1cfc588600f6b78479c50b7ce3ab6f35
+timeCreated: 1497077653
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Player
-    21300002: Boy
-    21300004: Boy_Walk1
-    21300006: Boy_Walk2
+    21300000: Sword
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -31,7 +28,7 @@ TextureImporter:
   textureFormat: 1
   maxTextureSize: 2048
   textureSettings:
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -1
     wrapMode: 1
@@ -74,52 +71,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player
+      name: Sword
       rect:
         serializedVersion: 2
-        x: 12
-        y: 157
-        width: 12
-        height: 19
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 2}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Boy
-      rect:
-        serializedVersion: 2
-        x: 12
-        y: 157
-        width: 12
-        height: 17
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Boy_Walk1
-      rect:
-        serializedVersion: 2
-        x: 13
-        y: 126
-        width: 12
-        height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 1}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Boy_Walk2
-      rect:
-        serializedVersion: 2
-        x: 28
-        y: 127
-        width: 14
-        height: 17
+        x: 0
+        y: 0
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
