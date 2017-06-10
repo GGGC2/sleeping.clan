@@ -1,11 +1,10 @@
 fileFormatVersion: 2
-guid: 37a8541e511d588469c919d1d898a74a
-timeCreated: 1497067902
+guid: 1cfc588600f6b78479c50b7ce3ab6f35
+timeCreated: 1497077653
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: Player
-    21300002: Enemy
+    21300000: Sword
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -42,7 +41,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spritePixelsToUnits: 14
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -72,26 +71,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Player
+      name: Sword
       rect:
         serializedVersion: 2
-        x: 10
-        y: 150
-        width: 29
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      tessellationDetail: 0
-    - serializedVersion: 2
-      name: Enemy
-      rect:
-        serializedVersion: 2
-        x: 10
-        y: 54
-        width: 29
-        height: 30
+        x: 0
+        y: 0
+        width: 25
+        height: 25
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
