@@ -19,5 +19,6 @@ private PlayerControll player;
 	public void RespawnPlayer(){
 		Debug.Log("Player Respawned");
 		player.transform.position = currentCheckpoint.transform.position;
+		player.GetComponent<Rigidbody2D>().velocity = new Vector2 (0,0);
 	}
 }
