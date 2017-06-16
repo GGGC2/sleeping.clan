@@ -15,7 +15,7 @@ public class CheckPoint : MonoBehaviour {
 	}
 			
 	void OnTriggerEnter2D(Collider2D other){
-		if(other.name == "Boy"){
+		if(other.name == "Player"){
 			Debug.Log("Checkpoint Activated" + transform.position);
 			mapManager.currentCheckpoint = gameObject;
 		}

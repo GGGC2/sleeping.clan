@@ -15,7 +15,6 @@ public class move : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-
 	}
 	
 	void FixedUpdate() {
@@ -28,15 +27,14 @@ public class move : MonoBehaviour {
 			rigi.velocity = new Vector2(rigi.velocity.x, jumpHeight);
 		}
 
-		if(Input.GetKeyDown (KeyCode.D))
+		if(Input.GetKey (KeyCode.RightArrow))
 		{
 			rigi.velocity = new Vector2(moveSpeed, rigi.velocity.y);
 		}
 		
-		if(Input.GetKeyDown (KeyCode.A))
+		if(Input.GetKey (KeyCode.LeftArrow))
 		{
 			rigi.velocity = new Vector2(-moveSpeed, rigi.velocity.y);
-
 		}
 	}
 }
