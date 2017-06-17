@@ -16,15 +16,11 @@ public class EnemyController : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
+		rigi.velocity = new Vector2(-moveSpeed, 0);
 		
 	}
 	
 	// Update is called once per frame
 	void Update () {
-	}
-
-	public void OnTriggerEnter2D(Collider2D other)
-	{
-		rigi.velocity = new Vector2(moveSpeed,0);
 	}
 }

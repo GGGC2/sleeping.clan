@@ -14,9 +14,13 @@ public MapManager mapManager;
 		
 	}
 	void OnTriggerEnter2D(Collider2D other){
-		if(other.name == "Boy"){
-
-		 mapManager.RespawnPlayer();
+		if(other.name == "Boy")
+		{
+		 	mapManager.RespawnPlayer();
+		}
+		if(other.name == "Enemy")
+		{
+			Destroy(other);
 		}
 	}
 }

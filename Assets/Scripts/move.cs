@@ -36,5 +36,9 @@ public class Move : MonoBehaviour {
 		{
 			rigi.velocity = new Vector2(-moveSpeed, rigi.velocity.y);
 		}
+		if(Input.GetKey (KeyCode.D))
+		{
+
+		}
 	}
 }

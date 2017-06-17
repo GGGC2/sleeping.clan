@@ -17,17 +17,21 @@ public class DialogueHolder : MonoBehaviour {
 	private DialogueManager dMan;
 	private bool hasEntered;
 
+	private bool checkTrigger;
 	// Use this for initialization
 	void Start () {
 		dMan = FindObjectOfType<DialogueManager>();
 		dialogueNumber = 0;
 		instructionNumber = 0;
 		hasEntered = false;
-		
+		checkTrigger = false;
 	}
 	
 	// Update is called once per frame
 	void Update () {
+		if (checkTrigger == false) {
+			return;
+		}
 		if(dialogueNumber > 3 && dialogueNumber < 8)
 		{
 			if(Input.GetKeyDown(keys[1]))
@@ -67,13 +71,17 @@ public class DialogueHolder : MonoBehaviour {
 				dMan.ShowBox(dialogue[dialogueNumber], instruction[instructionNumber]);
 				instructionNumber = 0;
 			}
-			else dMan.CloseBox();
-			
+			else 
+			{
+				dMan.CloseBox();
+				dialogueNumber = 0;
+			}
 		}
 		
 	}
 	void OnTriggerEnter2D(Collider2D other)
 	{
+		checkTrigger = true;
 		if(!hasEntered)
 		{
 			dMan.ShowBox(dialogue[dialogueNumber], instruction[instructionNumber]);
