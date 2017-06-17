@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class CheckPoint : MonoBehaviour {
+public class NextScene : MonoBehaviour {
 	public MapManager mapManager;
 	public int sceneNumber;
 	// Use this for initialization
@@ -17,8 +17,10 @@ public class CheckPoint : MonoBehaviour {
 	}
 			
 	void OnTriggerEnter2D(Collider2D other){
-
-	}
+		if(other.name == "Player"){
+			SceneManager.LoadScene(sceneNumber);
+		}
 	
+	}
 }
  

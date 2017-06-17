@@ -68,6 +68,7 @@ public class DialogueHolder : MonoBehaviour {
 				instructionNumber = 0;
 			}
 			else dMan.CloseBox();
+			
 		}
 		
 	}

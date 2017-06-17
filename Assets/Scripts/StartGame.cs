@@ -14,7 +14,7 @@ public class StartGame : MonoBehaviour {
 	void Update () {
 		if(Input.anyKeyDown)
 		{
-			SceneManager.LoadScene("MinJoon");
+			SceneManager.LoadScene(1);
 		}
 		
 	}
