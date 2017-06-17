@@ -5,11 +5,11 @@ using UnityEngine;
 public class MapManager : MonoBehaviour {
 public GameObject currentCheckpoint;
 
-private PlayerControll player;
+private Move player;
 
 	// Use this for initialization
 	void Start () {
-		player = FindObjectOfType<PlayerControll>();
+		player = FindObjectOfType<Move>();
 	}
 	
 	// Update is called once per frame

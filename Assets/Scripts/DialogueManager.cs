@@ -7,6 +7,7 @@ public class DialogueManager : MonoBehaviour {
 
 	public GameObject dBox;
 	public Text dText;
+	public Text dInstruction;
 	public bool dialogueActive;
 
 	// Use this for initialization
@@ -18,17 +19,18 @@ public class DialogueManager : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if(Input.GetKeyUp(KeyCode.Return))
-		{
-			dialogueActive = false;
-			dBox.SetActive(false);
-		}
-		
+
 	}
-	public void ShowBox(string dialogue)
+	public void ShowBox(string dialogue, string instruction)
 	{
 		dialogueActive = true;
 		dBox.SetActive(true);
 		dText.text = dialogue;
+		dInstruction.text = instruction;
+	}
+	public void CloseBox()
+	{
+		dialogueActive = false;
+		dBox.SetActive(false);
 	}
 }
